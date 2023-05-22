@@ -1,0 +1,10 @@
+Vetor
+
+Declaração
+	vetor1[10] <- Inteiro
+	
+PARA vetor1 de 1 até 10 passo 1 faça
+
+vetor1 <- 1
+
+FIM PARA
