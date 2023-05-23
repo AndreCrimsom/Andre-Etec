@@ -1,0 +1,8 @@
+Para Correção
+
+Declaração
+	lista[10]:inteiro
+	I:inteiro
+	
+PARA I <- 0 de até 9 passo 1 faça
+lista[I] <- 1;
