@@ -1,0 +1,15 @@
+Algoritmo Fila
+
+Declaração
+	Fila [10] : Texto
+	I : Inteiro
+	C : Texto
+	P : Texto
+
+PARA I <- 0 de até 9 passo 1 faça
+	Fila [I] <- 1
+FIM-PARA
+
+SE (I == 9) então:
+	I = 0;
+FIM-SE
