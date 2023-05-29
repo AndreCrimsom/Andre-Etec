@@ -1,0 +1,31 @@
+Algoritimo Fila
+
+Declaração
+	Fila [10] : Inteiro
+	I : Inteiro
+	Contador : Inteiro
+	Comun : Inteiro
+	Prio : Inteiro
+	Prio : 2
+Código
+Contador = I;
+Leia (Prio);
+PARA I <- 0 de até 9 passo 1 faça
+	SE (Fila[I] = 0) então:
+		Fila[I] <- 1;
+		I <- 1;
+	SENÃO faça:
+		I <- 1;
+	
+	FIM-SE
+Fila[0] = 0;
+Fila[1] = Fila[2];
+Fila[2] = Fila[3];
+Fila[3] = Fila[4];
+Fila[4] = Fila[5];
+Fila[5] = Fila[6];
+Fila[6] = Fila[7];
+Fila[7] = Fila[8];
+Fila[8] = Fila[9];
+Fila[9] = 0;
+FIM-PARA
