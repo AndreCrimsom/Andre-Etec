@@ -1,0 +1,22 @@
+Declaração
+	Float = C;
+	Float = D;
+	Float = R;
+	Char = opçao;
+	opçao = S;
+
+Código
+	Enquanto(Opção == 'S') Faça:
+	{
+		escreva("Bem vindo. Insira a cotação do dolar por favor");
+		leia("%f",&C);
+		
+		escreva("Insira o valor em dolares.");
+		leia("%f",&D);
+		
+		R = C * D;
+		escreva("O valor em reais é %f", &R);]
+		
+		escreva("Deseja realizar outra operação? [s/n]");
+		leia("%s",&opçao
+	}
